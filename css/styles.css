@@ -603,12 +603,13 @@ img {
 }
 
 .form-one {
+    display: flex;
+    gap: 24px;
     
 }
 .label-one {
     
-    display: flex;
-    gap: 24px;
+   
 }
 .first-input {
     width: 264px;
