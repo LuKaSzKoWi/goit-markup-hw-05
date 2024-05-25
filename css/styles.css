@@ -13,6 +13,7 @@ body {
 
 html {
     --text-color-main: #2E2F42;
+    --text-color-secondary: #8e8f99;
 }
   
 .page-logo {
@@ -701,11 +702,13 @@ img {
 .modal-button:hover {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-icon-one {
@@ -713,11 +716,11 @@ img {
 }
 
 .modal-icon-one:hover {
-    fill: #ffffff
+    /* fill: #ffffff */
 }
 
 .modal-icon-one:focus {
-    fill: #ffffff
+    /* fill: #ffffff */
 }
 
 /* Modal paragaphs */
@@ -730,4 +733,17 @@ img {
     letter-spacing: 0.02em;
     color: var(--text-color-main);
     margin-bottom: 16px;
+}
+
+.modal-form-one {
+    margin-bottom: 8px;
+}
+
+.modal-label-one {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--text-color-secondary);
+    display: block;
+    margin-bottom: 4px;
 }
