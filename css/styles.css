@@ -14,6 +14,7 @@ body {
 html {
     --text-color-main: #2E2F42;
     --text-color-secondary: #8e8f99;
+    
 }
   
 .page-logo {
@@ -364,7 +365,8 @@ img {
     display: flex;
     gap: 24px;
 }
-.image-list {transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.image-list {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -779,7 +781,7 @@ img {
     
 }
 
-.modal-icon-t:focus-within {
+.modal-icon-two:focus-within {
     fill: #4D5AE5;
 }
 
@@ -810,4 +812,43 @@ img {
 
 .modal-textarea:focus {
     border-color: #4D5AE5;
+}
+
+/* Modal-checkbox */
+
+.modal-checkbox {
+    margin-bottom: 24px;
+}
+
+.input-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--text-color-secondary)
+}
+
+.checkbox-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
