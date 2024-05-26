@@ -820,19 +820,6 @@ img {
     margin-bottom: 24px;
 }
 
-.input-checkbox {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .checkbox-label {
     font-size: 12px;
@@ -851,4 +838,10 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.checkbox-input:checked .checkbox-label .checkbox-span {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
