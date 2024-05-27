@@ -782,7 +782,7 @@ img {
     
 }
 
-.modal-icon-two:focus-within {
+.modal-form-two:focus-within {
     fill: #4D5AE5;
 }
 
@@ -830,6 +830,8 @@ img {
 }
 
 .checkbox-span {
+    display:inline-block;
+    
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
